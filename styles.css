@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Crafty Girls", cursive;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 1px rgb(52, 97, 139);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(32, 178, 170);
+}
+
+.chamada{
+    background: lightseagreen;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+    .chamada-texto{
+    margin-right: 5%;
+
+    }
+    H1{
+        font-size: 40px;
+    }
+    P{
+        font-size: 20px;
+    }
+    img{
+        height: 200px;
+    }
+    
+    .categoria-videos{
+        display: flex;
+        overflow-x: auto; 
+        gap: 10px;
+    }
+    .categoria{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px
+    }
+    .categoria-videos img {
+        opacity: 0.5;  
+    }
+    .categoria-videos img:hover{
+    opacity: 1.0;
+    zoom: 2px green;
+}
